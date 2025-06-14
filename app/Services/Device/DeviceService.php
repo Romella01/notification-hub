@@ -12,7 +12,7 @@ class DeviceService
      * @param CreateDeviceDto $dto
      * @return GenericResourceDto
      */
-    public function crete(CreateDeviceDto $dto): GenericResourceDto
+    public function create(CreateDeviceDto $dto): GenericResourceDto
     {
         return CreateDeviceCommand::execute($dto);
     }

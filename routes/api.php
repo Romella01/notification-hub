@@ -11,5 +11,5 @@ Route::prefix('auth')->group(function () {
 Route::middleware('auth:api')
     ->prefix('devices')
     ->group(function () {
-        Route::post('/', [DeviceController::class, 'crete']);
+        Route::post('/', [DeviceController::class, 'create']);
     });

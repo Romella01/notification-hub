@@ -13,10 +13,10 @@ class DeviceController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function crete(CreateDeviceRequest $request, DeviceService $service): DeviceResource
+    public function create(CreateDeviceRequest $request, DeviceService $service): DeviceResource
     {
         return new DeviceResource(
-            $service->crete(
+            $service->create(
                 new CreateDeviceDto(
                     $request->getUserId(),
                     $request->getFcmToken(),
