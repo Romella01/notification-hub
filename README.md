@@ -8,7 +8,7 @@
 
 ````bash
 # 1 — клонируем репозиторий
-$ git clone https://github.com/you/notification-hub.git
+$ git clone git@github.com:Romella01/notification-hub.git
 $ cd notification-hub
 
 # 2 - копируем .env.example в .env
